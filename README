@@ -26,3 +26,12 @@ add below into your vimrc
 ```
 let g:impin_eng=$index_you_got_previous_step
 ```
+
+## FAQ
+
+Q: im-select didn't work well?
+A: If you're using tmux, please make sure you're using reattach-to-user-namespace as well
+
+Q: Why MacOS only?
+A: I got the binary im-select here works for MacOS only, and my workplace is MacOS too
+   It's easy to extend it if you could make an im-select of your OS
