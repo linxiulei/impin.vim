@@ -1,0 +1,28 @@
+## IM-PIN
+
+A vim plugin that helps to turn IM to English when you leave insert-mode, and
+restore the IM when you enter insert-mode again.
+
+## Installation
+
+MacOS __only__ right now
+
+```
+git clone it
+cp -r impin.vim ~/.vim/bundle
+```
+
+copy it to ~/.janus if you're using vim-janus
+
+Get your English input index
+
+```
+# run it after you switch to English IM
+./im-select
+```
+
+add below into your vimrc
+
+```
+let g:impin_eng=$index_you_got_previous_step
+```
